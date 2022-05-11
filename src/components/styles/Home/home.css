@@ -1,0 +1,67 @@
+.links-introduction {
+    background: linear-gradient(75deg, #fff 50%, #198686 50%);
+    display: flex;
+}
+.intro-description-greeting {
+    color: #198686;
+    display: block;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 550;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+
+}
+
+.intro-description-names {
+    text-transform: capitalize;
+    display: block;
+    margin-top: .5rem;
+    margin-left: 3rem;
+    color: #05314e;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+.intro-description-job {
+    text-transform: capitalize;
+    margin-left: 3rem;
+    font-size: 1rem;
+    color: #05314e;
+
+}
+
+.intro-text {
+    color: #05314e;
+    word-wrap: break-word;
+    width: 300px;
+    margin-left: 3rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1.5rem
+}
+
+.btn-hire-me {
+    background-color: #198686;
+    color: #fff;
+    height: 2.5em;
+    width: 7em;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.intro-description-text img {
+    height: 450px;
+    width: 400px;
+    object-fit: cover;
+    margin-top: 200px;
+    margin-right: 350px;
+
+}

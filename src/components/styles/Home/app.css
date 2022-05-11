@@ -1,0 +1,88 @@
+nav{
+    background: linear-gradient(80deg,#fff 43%,#198686 10%, #198686 50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+nav h1 .logo-designer-1{
+    color: #05314e;
+        font-size: 1.5rem;
+}
+nav h1 .logo-designer-2{
+    color: #008000;
+        font-size: 1.5rem;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    text-decoration: none;
+        color: #fff;
+        padding: 1rem;
+        display: block;
+      
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: rgb(95, 13, 13);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+@media (max-width: 952px) {
+    nav h1 {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li Link {
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+  
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        /* background: #198686; */
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #45b62e;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
