@@ -1,3 +1,5 @@
+/* Social media component*/
+
 .links-introduction {
     background: linear-gradient(75deg, #fff 50%, #198686 50%);
     display: flex;
@@ -64,4 +66,9 @@
     margin-top: 200px;
     margin-right: 350px;
 
+}
+@media (max-width:790px) {
+    .links-introduction{
+        background: none;
+    }    
 }

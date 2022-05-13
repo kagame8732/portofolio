@@ -99,33 +99,20 @@ img {
     max-height: 3em;
     line-height: 1.5em;
 }
-
-@media (max-width:1280) {
-    .skills {
-        display: block;
-        font-size: 10px;
+@media (max-width:930px) {
+    img {
+        width: 25rem;
+        height: 30rem;
+        margin-top: 3rem;
     }
-
-    .btn a {
-        display: block;
-        font-size: 15px;
-    }
-
-
 }
-
-@media (min-width:858px) {
-    .about-txt {
-        padding: 20px;
+@media (max-width: 790px) {
+    .about {
+        margin-top: 2.5rem;
     }
-
-    .skills {
-        display: block;
-        font-size: 10px;
-    }
-
-    .btn a {
-        display: block;
-        font-size: 15px;
+    img{
+        width: 20rem;
+        height: 30rem;
+        margin-top: 3rem;
     }
 }

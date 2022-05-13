@@ -6,9 +6,9 @@
 .service-menu {
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1rem;
     color: #05314e;
-    margin-top: 10px;
+    margin-top: 1rem;
     height: 100%;
     width: 100%;
     padding: 2rem;
@@ -17,7 +17,7 @@
 .service-menu h1::after {
     content: "";
     width: 100px;
-    height: 5px;
+    height: .5rem;
     background: #198686;
     display: flex;
     margin: auto;
@@ -43,7 +43,7 @@
 }
 
 .services .content {
-    font-size: 15px;
+    font-size: 1rem;
     letter-spacing: 1px;
     color: #05314e;
 }
@@ -54,13 +54,24 @@
     color: #05314e;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 793px) {
+    .service-menu{
+        margin-top:4rem ;
+    }
+   
+   
     .services {
         grid-template-columns: repeat(1, 1fr);
+      
     }
 
     .graphical {
         margin: 0;
     }
+        .services>div:hover {
+            background: #198686;
+            transition: 0.5s ease;
+            border-radius: 5px;
+        }
 
 }

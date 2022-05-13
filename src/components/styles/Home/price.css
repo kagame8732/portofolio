@@ -96,6 +96,11 @@
         margin-bottom: 40px;
     }
 }
+@media (max-width:790px){
+    .container-4{
+        margin-top: 4rem;
+    }
+}
 
 @media (max-width:698px) {
     .container-4 .table {

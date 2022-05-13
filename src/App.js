@@ -16,7 +16,7 @@ import { FaBars } from "react-icons/fa";
 function App() {
   const style = {
     textDecoration: "none",
-    fontSize: "20px",
+    fontSize: "18px",
     fontWeight: "400",
     color: "#fff",
     background: "#198686",

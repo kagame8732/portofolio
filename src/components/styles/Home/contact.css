@@ -60,3 +60,8 @@ textarea.contact-form-text {
 .contact-form-btn:hover {
     background: #146bc2;
 }
+@media (max-width:790px) {
+    .contact-section{
+        margin-top: 4rem;
+    }
+}

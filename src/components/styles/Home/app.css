@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav{
     background: linear-gradient(80deg,#fff 43%,#198686 10%, #198686 50%);
     display: flex;
@@ -5,6 +10,10 @@ nav{
     align-items: center;
   
     
+}
+nav h1{
+    margin-top: 1rem;
+    margin-left: 3rem;
 }
 nav h1 .logo-designer-1{
     color: #05314e;
@@ -37,45 +46,28 @@ nav ul li{
     cursor: pointer;
     display: none;
 }
+nav{
+    background: none;
+}
+
 #check {
     display: none;
 }
-@media (max-width: 952px) {
-    nav h1 {
-        font-size: 30px;
-        padding-left: 50px;
-    }
 
-    nav ul li Link {
-        font-size: 16px;
-    }
-}
-@media (max-width: 858px) {
+@media (max-width: 793px) {
     .checkbtn {
-        display: block;
-    }
-  
+        display: flex;     
+    } 
     ul {
         position: fixed;
         width: 100%;
         height: 100vh;
-        /* background: #198686; */
+        font-size: 1rem;
         top: 80px;
         left: -100%;
         text-align: center;
         transition: all .5s;
     }
-
-    nav ul li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-
-    nav ul li a {
-        font-size: 20px;
-    }
-
     a:hover,
     a.active {
         background: none;
@@ -84,5 +76,14 @@ nav ul li{
 
     #check:checked~ul {
         left: 0;
+    }
+    .links-introduction{
+        margin-top: 1.5rem;
+
+    }
+}
+@media (max-width:838px) {
+    nav ul{
+        font-size: 3rem;
     }
 }

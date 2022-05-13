@@ -38,7 +38,7 @@ const Social_media = () => {
         <button className="btn-hire-me">Hire me</button>
       </div>
       <div className="intro-description-text">
-        <img src={img1} alt="background image" />
+        <img className="img-home" src={img1} alt="background image" />
       </div>
     </div>
   );
