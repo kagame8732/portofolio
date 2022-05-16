@@ -17,7 +17,6 @@ function App() {
   const style = {
     textDecoration: "none",
     fontSize: "18px",
-    fontWeight: "400",
     color: "#fff",
     background: "#198686",
     borderRadius: "5px",
