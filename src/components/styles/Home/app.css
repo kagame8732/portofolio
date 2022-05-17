@@ -87,3 +87,8 @@ nav{
         font-size: 3rem;
     }
 }
+@media (max-width: 655px) {
+    nav ul{
+        font-size: 1rem;
+    }
+}
