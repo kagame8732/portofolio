@@ -33,7 +33,7 @@ const Social_media = () => {
         </h2>
         <p className="intro-text">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id minima
-          dolor delectus? Dolore iusto eaque cupiditate ipsum ducimus
+          dolor delectus? Dolore iusto eaque cupiditate ipsum
         </p>
         <button className="btn-hire-me">Hire me</button>
       </div>
