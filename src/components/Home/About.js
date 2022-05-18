@@ -2,7 +2,6 @@ import img2 from "../images/about/img2.png";
 const About = () => {
   return (
     <div id="about-us" class="about">
-      <h1>About</h1>
       <section class="about-us">
         <div class="all-1">
           <div class="container-1">
