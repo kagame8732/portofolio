@@ -38,7 +38,7 @@ function App() {
 
         <ul>
           <li>
-            <Link to={"/"} style={style}>
+            <Link exact to={"/"} style={style}>
               Home
             </Link>
           </li>
@@ -70,7 +70,7 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/price" element={<Price />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<ErrorPage />} />
+        {/* <Route path="*" element={<ErrorPage />} /> */}
       </Routes>
       {/* <div>Footer</div> */}
     </Router>
